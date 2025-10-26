@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Playfair_Display_SC, Urbanist } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 
 const fontSerif = Playfair_Display_SC({
   variable: "--font-serif",
@@ -123,7 +125,11 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
+          <Header />
+
           {children}
+
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
