@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display_SC, Urbanist } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
 
 const fontSerif = Playfair_Display_SC({
   variable: "--font-serif",
@@ -112,11 +113,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id">
+    <html lang="id" suppressHydrationWarning>
       <body
         className={`${fontSerif.variable} ${fontSans.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
