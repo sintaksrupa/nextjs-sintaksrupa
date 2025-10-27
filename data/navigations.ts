@@ -1,12 +1,12 @@
-type NavLink = {
+type MainNavLink = {
   href: string;
   label: string;
 };
 
-export const navLinks: NavLink[] = [
+export const MainNavLinks: MainNavLink[] = [
   {
     href: "/",
-    label: "Home",
+    label: "Beranda",
   },
   {
     href: "/galeri",

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { navLinks } from "@/lib/constants";
+import { MainNavLinks } from "@/data/navigations";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { Button } from "@/components/ui/button";
 import {
@@ -30,7 +30,7 @@ export function MobileMainNav() {
 
         <nav className="h-full flex md:hidden items-center justify-center">
           <ul className="flex flex-col items-center justify-center gap-10 font-serif text-3xl">
-            {navLinks.map((item) => {
+            {MainNavLinks.map((item) => {
               const isActive =
                 item.href === "/"
                   ? pathname === item.href

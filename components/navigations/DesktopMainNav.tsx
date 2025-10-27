@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { navLinks } from "@/lib/constants";
+import { MainNavLinks } from "@/data/navigations";
 
 export function DesktopMainNav() {
   const pathname = usePathname();
 
   return (
     <nav className="hidden md:flex justify-center relative z-50">
-      <ul className="flex gap-7 font-serif">
-        {navLinks.map((item) => {
+      <ul className="flex gap-5 lg:gap-7 font-serif">
+        {MainNavLinks.map((item) => {
           const isActive =
             item.href === "/"
               ? pathname === item.href
