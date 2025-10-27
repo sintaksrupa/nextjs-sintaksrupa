@@ -43,11 +43,11 @@ export function MobileMainNav() {
                 >
                   <Link href={item.href}>
                     <span
-                      className={
+                      className={`uppercase ${
                         isActive
                           ? "text-accent border-b border-accent"
                           : "hover:text-accent hover:border-b hover:border-accent transition-all duration-300 ease-in-out"
-                      }
+                      }`}
                     >
                       {item.label}
                     </span>

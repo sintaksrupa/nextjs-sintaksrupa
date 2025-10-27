@@ -13,8 +13,10 @@ export function Footer() {
   return (
     <footer className="flex w-full px-3 md:px-5 bg-foreground text-primary-foreground pt-10">
       <div className="w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl flex flex-col mx-auto">
-        <section className="grid md:grid-cols-2 gap-10 md:gap-20 justify-between border-b border-primary-foreground/25 py-10">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-20 justify-between border-b border-primary-foreground/25 py-10">
           <div className="md:col-span-1 flex flex-col gap-5">
+            <h5 className="sr-only">Tentang</h5>
+
             <Link href="/">
               <Image
                 src="https://qbbs2frdex6nzjnr.public.blob.vercel-storage.com/primary-white-logo-type-sintaks-rupa.png"
@@ -35,6 +37,8 @@ export function Footer() {
 
           <div className="md:col-span-1 flex justify-start md:justify-end">
             <div className="block">
+              <h5 className="sr-only">Kontak</h5>
+
               <p>Punya pertanyaan, proyek atau hanya ingin mengenal kami?</p>
 
               <p className="flex flex-col my-3 font-light tracking-wider">
@@ -87,11 +91,11 @@ export function Footer() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section className="flex justify-center py-5">
+        <div className="flex justify-center py-5">
           &copy; {new Date().getFullYear()} Sintaks Rupa. Hak cipta dilindungi.
-        </section>
+        </div>
       </div>
     </footer>
   );
