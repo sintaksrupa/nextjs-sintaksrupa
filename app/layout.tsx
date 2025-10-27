@@ -23,8 +23,7 @@ const fontSans = Urbanist({
 export const metadata: Metadata = {
   title: {
     template: "%s | SintaksRupa",
-    default:
-      "Jasa Desain Grafis & Website Terpercaya yang Tumbuh Bersama UMKM Menuju Citra Bisnis yang Lebih Profesional | SintaksRupa",
+    default: "Jasa Desain Grafis & Website Terjangkau Terpercaya | SintaksRupa",
   },
   description:
     "Sintaks Rupa adalah partner kreatif digital yang berbasis di Klaten, Jawa Tengah. Kami adalah spesialis dalam layanan desain grafis dan pengembangan website. Semangat kami adalah membantu bisnis dan UMKM untuk bertumbuh dan tampil profesional di dunia digital melalui identitas visual yang kuat dan website yang optimal.",
@@ -62,12 +61,12 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title:
-      "Jasa Desain Grafis & Website Terpercaya yang Tumbuh Bersama UMKM Menuju Citra Bisnis yang Lebih Profesional | SintaksRupa",
+    title: "Jasa Desain Grafis & Website Terjangkau Terpercaya | SintaksRupa",
     description:
       "Sintaks Rupa adalah partner kreatif digital yang berbasis di Klaten, Jawa Tengah. Kami adalah spesialis dalam layanan desain grafis dan pengembangan website. Semangat kami adalah membantu bisnis dan UMKM untuk bertumbuh dan tampil profesional di dunia digital melalui identitas visual yang kuat dan website yang optimal.",
     url: "https://sintaksrupa.site/",
-    siteName: "SintaksRupa | Jasa Desain Grafis & Website",
+    siteName:
+      "SintaksRupa | Jasa Desain Grafis & Website Terjangkau Terpercaya",
     images: [
       {
         url: "https://qbbs2frdex6nzjnr.public.blob.vercel-storage.com/primary-logo-type-sintaks-rupa.jpg",
@@ -87,8 +86,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Jasa Desain Grafis & Website Terpercaya yang Tumbuh Bersama UMKM Menuju Citra Bisnis yang Lebih Profesional | SintaksRupa",
+    title: "Jasa Desain Grafis & Website Terjangkau Terpercaya | SintaksRupa",
     description:
       "Sintaks Rupa adalah partner kreatif digital yang berbasis di Klaten, Jawa Tengah. Kami adalah spesialis dalam layanan desain grafis dan pengembangan website. Semangat kami adalah membantu bisnis dan UMKM untuk bertumbuh dan tampil profesional di dunia digital melalui identitas visual yang kuat dan website yang optimal.",
     images: [
