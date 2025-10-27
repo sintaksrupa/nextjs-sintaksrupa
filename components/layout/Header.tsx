@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { MoveRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { DesktopMainNav } from "@/components/navigations/DektopMainNav";
+import { DesktopMainNav } from "@/components/navigations/DesktopMainNav";
 import { MobileMainNav } from "@/components/navigations/MobileMainNav";
 
 export function Header() {
