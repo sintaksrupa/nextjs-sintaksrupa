@@ -20,6 +20,12 @@ const fontSans = Urbanist({
   preload: true,
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
+if (!siteUrl) {
+  throw new Error("Missing NEXT_PUBLIC_SITE_URL environment variable");
+}
+
 export const metadata: Metadata = {
   title: {
     template: "%s | SintaksRupa",
@@ -74,7 +80,7 @@ export const metadata: Metadata = {
     title: "SintaksRupa - Jasa Desain Grafis & Website Terjangkau Terpercaya",
     description:
       "Sintaks Rupa adalah partner kreatif digital yang berbasis di Klaten, Jawa Tengah. Kami adalah spesialis dalam layanan desain grafis dan pengembangan website. Semangat kami adalah membantu bisnis dan UMKM untuk bertumbuh dan tampil profesional di dunia digital melalui identitas visual yang kuat dan website yang optimal.",
-    url: "https://sintaksrupa.site/",
+    url: siteUrl,
     siteName: "SintaksRupa",
     images: [
       {
