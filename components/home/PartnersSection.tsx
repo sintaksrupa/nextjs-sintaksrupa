@@ -15,7 +15,7 @@ export default function PartnersSection() {
           <span className="font-sans normal-case">
             Sintaks <span className="text-accent font-serif">Rupa</span>
           </span>{" "}
-          menjadi pilihan tepercaya bagi berbagai bisnis dan UMKM yang ingin
+          menjadi pilihan terpercaya bagi berbagai bisnis dan UMKM yang ingin
           tampil lebih profesional.
         </p>
       </div>
