@@ -8,7 +8,7 @@ import { MobileMainNav } from "@/components/navigations/MobileMainNav";
 export function Header() {
   return (
     <header className="flex w-full fixed px-3 md:px-5 backdrop-blur supports-backdrop-filter:bg-background/25 text-primary z-50">
-      <div className="w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl flex items-center justify-between mx-auto py-3 md:py-5 border-b border-black/10">
+      <div className="w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl flex md:flex-row-reverse lg:flex-row items-center justify-between mx-auto py-3 md:py-5 border-b border-black/10">
         {/* DESKTOP MAIN NAV */}
         <DesktopMainNav />
 
@@ -27,7 +27,7 @@ export function Header() {
         <MobileMainNav />
 
         {/* ORDER SEKARANG BUTTON */}
-        <Button className="hidden md:flex font-serif rounded-none p-5" asChild>
+        <Button className="hidden lg:flex font-serif rounded-none p-5" asChild>
           <Link href="https://wa.me/+6287889198491" target="_blank">
             Order Sekarang <MoveRight />
           </Link>
