@@ -28,7 +28,7 @@ if (!siteUrl) {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | SintaksRupa",
+    template: "%s - SintaksRupa",
     default: "SintaksRupa - Jasa Desain Grafis & Website Terjangkau Terpercaya",
   },
   description:
