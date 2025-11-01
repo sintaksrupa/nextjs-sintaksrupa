@@ -1,7 +1,7 @@
 import { HeroSection } from "@/components/home/HeroSection";
 import { KeyOfBenefitsSection } from "@/components/home/KeyOfBenefitsSection";
-import PartnersSection from "@/components/home/PartnersSection";
-import ServicesSection from "@/components/home/ServicesSection";
+import { PartnersSection } from "@/components/home/PartnersSection";
+import { ServicesSection } from "@/components/home/ServicesSection";
 
 export default function Home() {
   return (

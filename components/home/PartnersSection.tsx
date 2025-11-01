@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { partners } from "@/data/partners";
 
-export default function PartnersSection() {
+export function PartnersSection() {
   return (
     <section className="flex flex-col gap-12 w-full items-center justify-center px-3 md:px-5">
       <div className="flex flex-col md:flex-row w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl gap-3 items-start md:items-end justify-between text-start">

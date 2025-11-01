@@ -5,7 +5,7 @@ import { MoveRight } from "lucide-react";
 import { FaCheck } from "react-icons/fa6";
 import { Button } from "@/components/ui/button";
 
-export default function ServicesSection() {
+export function ServicesSection() {
   return (
     <section className="flex w-full items-center justify-center px-3 md:px-5">
       <div className="flex flex-col md:flex-row gap-10 lg:gap-16 w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl items-center md:items-start justify-between text-start">
