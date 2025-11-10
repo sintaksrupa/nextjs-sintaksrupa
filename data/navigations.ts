@@ -3,7 +3,7 @@ type MainNavLink = {
   label: string;
 };
 
-type ServicesNavLink = {
+type CategoryNavLink = {
   href: string;
   label: string;
 };
@@ -23,7 +23,22 @@ export const MainNavLinks: MainNavLink[] = [
   },
 ];
 
-export const servicesNavLinks: ServicesNavLink[] = [
+export const galleryNavLinks: CategoryNavLink[] = [
+  {
+    href: "/galeri",
+    label: "Semua",
+  },
+  {
+    href: "/galeri/desain-grafis",
+    label: "Desain Grafis",
+  },
+  {
+    href: "/galeri/website",
+    label: "Website",
+  },
+];
+
+export const servicesNavLinks: CategoryNavLink[] = [
   {
     href: "/layanan",
     label: "Semua",
