@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display_SC, Urbanist } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { Header } from "@/components/layout/Header";
@@ -145,6 +146,8 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
       </body>
+
+      <GoogleAnalytics gaId="G-MMB8BKY3C8" />
     </html>
   );
 }
